@@ -1,0 +1,19 @@
+Write a program with class Student with an integer data member ID and a double data member GPA.
+For the Student class write a default constructor. The default constructor should be setting the value of ID to 1111 and the value of GPA to 4.5 and printing the values that it is setting. 
+
+For the Student class write a parameterized constructor (accepting one integer and one double) that are going to be used for setting the values of the ID and GPA accordingly and printing the values that it is setting. 
+
+For the Student class write a destructor.
+
+For the Student class write a function member show without any input arguments that prints the values of ID and GPA (one function should be printing both). 
+
+In the main do the following:
+1. Create an object of the Student class
+
+2. Call the default constructor
+
+3. Call the show function to print the values of ID and GPA
+
+4. Call the parameterized constructor with some chosen arguments (arguments could be user input, could be hardcoded in this case)
+
+5. Call the show function to print the values of ID and GPA again
