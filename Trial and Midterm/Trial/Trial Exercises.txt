@@ -1,0 +1,14 @@
+Create a class Person. It should have the following members:
+
+    Three private members: name, surname and age;
+    A default constructor without parameters;
+    A parameterized constructor with three parameters, to set the corresponding values of the private members (make use of the this pointer upon initialization of the members);
+    A public void print() function which will output the person details (name, surname and age);
+    A friend int yearBirth() function which will return the year of birth for the particular person, using the formula: 2015 - age;
+
+In the main() function, create two Person objects, by giving the values for their members through the keyboard. Upon creating them, print them on the screen and display their year of birth.
+
+
+
+
+Create a class Circle. It should contain a private double member radius, and corresponding get() and set() functions. It should also contain function members that return the perimeter and the area of the circle. In the main() program, create an array of Circle objects (at most 50). Input the number of circles you wish to define through the keyboard. Then enter the radius for those circles through the keyboard. After you enter the radius of all the circles, output their corresponding perimeters and areas.
